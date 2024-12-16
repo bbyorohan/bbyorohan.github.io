@@ -1,0 +1,56 @@
+body {
+
+      font-family: "Kode Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight:600;
+      font-style: normal;
+    background-color: black;
+    color: floralwhite;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+
+}
+
+#main {
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.mid-width {
+    grid-column:1/4;
+}
+
+h2.mid-width{
+  margin-top: 120px;
+}
+
+h1.headder{
+  grid-column: 2/5;
+}
+
+
+.center-width {
+    grid-column:2/5;
+    margin-top: 200px;
+    font-size: 36px;
+      }
+
+      /* .size-margin{
+        margin-top: 100px;
+        font-size: ;
+      } */
+.title-text{
+  display: inline-block;
+}
+.title-block{
+  display: inline-flex;
+}
+.title-text h1{
+  font-size: 36px;
+}
+.pfp{
+  transform: translate(40%, 30%);
+}
+
